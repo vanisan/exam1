@@ -69,7 +69,7 @@ header {
     width: 100%;
     height: 740px;
     margin: 0 auto;
-    background-image: url("assets/pics/headerbg.jpg");
+    background-image: url(../assets/pics/headerbg.jpg);
     background-size: cover;
     font-family: "Josefin Sans";
     letter-spacing: 3px;
@@ -206,7 +206,7 @@ header {
 .whyus {
     width: 100%;
     height: 680px;
-    background-image: url('assets/pics/whyusbg.jpg');
+    background-image: url(../assets/pics/whyusbg.jpg);
     padding-top: 100px;
     .whyiscontent {
         display: -webkit-box;
@@ -339,7 +339,7 @@ header {
     padding-top: 200px;
     width: 100%;
     height: 700px;
-    background-image: url(assets/pics/book_firstbg.jpg);
+    background-image: url(../assets/pics/book_firstbg.jpg);
     font-family: "Josefin Sans";
     .bfirst_cont {
         color: #fff;
@@ -398,7 +398,7 @@ header {
     padding-top: 200px;
     width: 100%;
     height: 700px;
-    background-image: url(assets/pics/book_firstbg.jpg);
+    background-image: url(../assets/pics/book_firstbg.jpg);
     font-family: "Josefin Sans";
     .bsecond_cont {
         color: #fff;
@@ -457,7 +457,7 @@ header {
     padding-top: 100px;
     width: 100%;
     height: 730px;
-    background-image: url(assets/pics/feedback_bg.jpg);
+    background-image: url(../assets/pics/feedback_bg.jpg);
     .feedhead {
         text-align: center;
         color: #fff;
@@ -522,7 +522,7 @@ header {
         .footico{
             width: 30px;
             height: 30px;
-            background-image: url(assets/pics/footericons.png);
+            background-image: url(../assets/pics/footericons.png);
             cursor: pointer;
             -webkit-transition: .4s all ease;
             -o-transition: .4s all ease;
