@@ -160,7 +160,7 @@ header {
   width: 100%;
   height: 740px;
   margin: 0 auto;
-  background-image: url(assets/pics/headerbg.jpg);
+  background-image: url("assets/pics/headerbg.jpg");
   background-size: cover;
   font-family: "Josefin Sans";
   letter-spacing: 3px;
@@ -295,7 +295,7 @@ header .headerform .header_input .scroll .icon_scroll img {
 .whyus {
   width: 100%;
   height: 680px;
-  background-image: url(assets/pics/whyusbg.jpg);
+  background-image: url("assets/pics/whyusbg.jpg");
   padding-top: 100px;
 }
 .whyus .whyiscontent {
