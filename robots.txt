@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /pages/
+Sitemap: https://vanisan.github.io/exam1/sitemap.xml
