@@ -291,6 +291,7 @@ header {
         .whyuspics > *:nth-child(8) {-ms-grid-row: 3;-ms-grid-column: 7
         }
         .whyusarticle {
+            line-height: 26px;
             height: 60%;
             padding-top: 46px;
             font-family: "Josefin Sans";
@@ -478,6 +479,10 @@ header {
         width: 80%;
         align-items: center;
         font-family: "Josefin Sans";
+        .name_f {
+            padding-bottom: 30px;
+            font-size: 22px;
+        }
         .feed_pic{
             padding-left: 20px;
             padding-right: 20px;
@@ -486,6 +491,7 @@ header {
         }
         .feed_text {
             color: #fff;
+            line-height: 28px;
             padding-left: 20px;
             padding-right: 20px;
         }

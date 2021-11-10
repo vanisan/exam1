@@ -398,6 +398,7 @@ header .headerform .header_input .scroll .icon_scroll img {
   -ms-grid-column: 7;
 }
 .whyus .whyiscontent .whyusarticle {
+  line-height: 26px;
   height: 60%;
   padding-top: 46px;
   font-family: "Josefin Sans";
@@ -583,6 +584,10 @@ header .headerform .header_input .scroll .icon_scroll img {
   align-items: center;
   font-family: "Josefin Sans";
 }
+.feedbacks .feed_cont .name_f {
+  padding-bottom: 30px;
+  font-size: 22px;
+}
 .feedbacks .feed_cont .feed_pic {
   padding-left: 20px;
   padding-right: 20px;
@@ -591,6 +596,7 @@ header .headerform .header_input .scroll .icon_scroll img {
 }
 .feedbacks .feed_cont .feed_text {
   color: #fff;
+  line-height: 28px;
   padding-left: 20px;
   padding-right: 20px;
 }
