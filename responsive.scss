@@ -1,4 +1,82 @@
+@media only screen and (max-width: 1400px) {
+    .icoroll {
+        padding-top: 50px;
+        text-align: center;
+        width: 100%;
+        height: 330px;
+        background-color: rgba(50,50,50);
+        font-family: "Aleo";
+        .icon_cont {
+            color: #fff;
+            font-size: 46px;
+            word-spacing: 10px;
+            position: relative;
+            margin: 0 auto;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            width: 80%;
+            height: 70%;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+            .bow {
+                width: 30%;
+                margin-top: -140px;
+                margin-left: -200px;
+                margin-right: -200px;
+            }
+    
+            img {
+                margin-bottom: 10px;
+            }
+    
+        }
+    }
+    
+}
+
 @media screen and (max-width: 1200px)  {
+    .icoroll {
+        padding-top: 50px;
+        text-align: center;
+        width: 100%;
+        height: 330px;
+        background-color: rgba(50,50,50);
+        font-family: "Aleo";
+        .icon_cont {
+            color: #fff;
+            font-size: 36px;
+            word-spacing: 10px;
+            position: relative;
+            margin: 0 auto;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            width: 85%;
+            height: 70%;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -ms-flex-pack: distribute;
+                justify-content: space-around;
+            .bow {
+                width: 30%;
+                margin-top: -140px;
+                margin-left: -200px;
+                margin-right: -200px;
+            }
+    
+            img {
+                margin-bottom: 10px;
+            }
+    
+        }
+    }
+    
+    
     .whyus {
         width: 100%;
         height: 680px;
@@ -166,6 +244,7 @@
     background-color: rgba(50,50,50);
     .icon_cont {
         color: #fff;
+        font-size: 22px;
         position: relative;
         margin: 0 auto;
         display: flex;
@@ -252,7 +331,7 @@
         background-color: rgba(50,50,50);
         .icon_cont {
             color: #fff;
-            font-size: 14px;
+            font-size: 24px;
             position: relative;
             margin: 0 auto;
             display: flex;
@@ -401,6 +480,120 @@
 }
 
 @media only screen and (max-width: 640px) {
+    .feedbacks {
+        padding-top: 100px;
+        width: 100%;
+        height: 730px;
+        background-image: url(/assets/pics/feedback_bg.jpg);
+        .feedhead {
+            text-align: center;
+            color: #fff;
+            margin-bottom: 40px;
+            font-size: 32px;
+            word-spacing: 8px;
+        }
+        .feed_cont {
+            background-color: rgba(0, 0, 0, 0.5);
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            margin: 0 auto;
+            height: 320px;
+            width: 80%;
+            align-items: center;
+            font-family: "Josefin Sans";
+            .feed_pic{
+                display: none;
+            }
+            .feed_text {
+                padding-top: 60px;
+                color: #fff;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+    }
+    
+
+    .icoroll {
+        padding-top: 50px;
+        text-align: center;
+        width: 100%;
+        height: 330px;
+        background-color: rgba(50,50,50);
+        font-family: "Aleo";
+        .icon_cont {
+            color: #fff;
+            font-size: 14px;
+            word-spacing: 10px;
+            position: relative;
+            margin: 0 auto;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            width: 100%;
+            height: 70%;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -ms-flex-pack: distribute;
+                justify-content: space-between;
+            .bow {
+                width: 26%;
+                margin-top: -140px;
+                margin-left: -200px;
+                margin-right: -200px;
+            }
+    
+            img {
+                margin-bottom: 10px;
+            }
+    
+        }
+    }
+    
+
+    .whyus {
+    width: 100%;
+    height: 680px;
+    background-image: url(/assets/pics/whyusbg.jpg);
+    padding-top: 100px;
+    .whyiscontent {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #fff;
+        width: 95%;
+        margin: 0 auto;
+        .whyustext {
+            padding-top: 40px;
+            width: 100%;
+        }
+        .whyuspics {
+            display: none;
+            margin: 0 auto;
+          .whyusfirstpic {
+            display: none;
+            margin: 0 auto; 
+          }
+          .whyussecpic {
+              display: none;
+              margin: 0 auto;
+          }
+      }
+      .whyusarticle {
+          height: 80%;
+      }
+      .whyusbtn {
+        margin: 0 auto;
+        margin-bottom: 20px;;
+      }
+    }
+}
     .booking_first {
         padding-top: 200px;
         width: 100%;
@@ -438,6 +631,7 @@
                 cursor: pointer;
             }
         }
+
     }
     
     .booking_second {
@@ -483,7 +677,44 @@
 
 @media only screen and (max-width: 400px) {
     
-    
+    .whyus {
+        width: 100%;
+        height: 680px;
+        background-image: url(/assets/pics/whyusbg.jpg);
+        padding-top: 100px;
+        .whyiscontent {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            color: #fff;
+            width: 95%;
+            margin: 0 auto;
+            .whyustext {
+                padding-top: 40px;
+                width: 100%;
+            }
+            .whyuspics {
+                display: none;
+                margin: 0 auto;
+              .whyusfirstpic {
+                display: none;
+                margin: 0 auto; 
+              }
+              .whyussecpic {
+                  display: none;
+                  margin: 0 auto;
+              }
+          }
+          .whyusarticle {
+              height: 90%;
+          }
+          .whyusbtn {
+            margin: 0 auto;
+            margin-bottom: 20px;;
+          }
+        }
+    }
 
     .booking_first {
         padding-top: 160px;
@@ -566,56 +797,5 @@
       
     }
 
-    .whyus {
-        width: 100%;
-        height: 680px;
-        background-image: url(/assets/pics/whyusbg.jpg);
-        padding-top: 100px;
-        .whyiscontent {
-            display: flex;
-            color: #fff;
-            width: 64%;
-            margin: 0 auto;
-            .whyustext {
-                padding-top: 90px;
-                width: 50%;
-                .whyushead{
-                    font-size: 36px;
-                }
-                .whyusbtn {
-                    margin-top: 30px;
-                    width: 230px;
-                    height: 60px;
-                    background: rgb(73,107,254);
-                    background: linear-gradient(51deg, rgba(73,107,254,1) 35%, rgba(97,151,252,1) 35%);
-                    border: none;
-                    color: #fff;
-                    cursor: pointer;
-                    transition: .5s all ease;
-                    margin-left: 10px;
-                }
-                .whyusbtn:hover {
-                        background: rgb(73,107,254);
-                        background: linear-gradient(51deg, rgba(73,107,254,1) 100%, rgba(97,151,252,1) 100%); 
-                    }
-                
-            }
-            .whyuspics {
-                width: 0%;
-                margin: 0 auto;
-                padding-left: 40px;
-                display: none; 
-                .whyusfirstpic {
-                    display: none;
-                }
-                .whyussecpic {
-                    display: none;
-                }
-            }
-            .whyusarticle {
-                height: 60%;
-                padding-top: 46px;
-            }
-        }
-    }
+    
 }
